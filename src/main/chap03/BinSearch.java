@@ -18,10 +18,10 @@ public class BinSearch {
             }
             else if (a[pc] < key){
                 pl = pc + 1;
-            }else {
+            }
+            else {
                 pr = pc -1;
             }
-
         } while(pl <= pr);
 
             return -1;
@@ -58,8 +58,5 @@ public class BinSearch {
         } else {
             System.out.printf("그 값은 x[%d]에 있습니다.",idx);
         }
-
-
-
     }
 }
