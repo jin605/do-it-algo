@@ -19,6 +19,7 @@ public class BinSearch {
             else if (a[pc] < key){
                 pl = pc + 1;
             }
+
             else {
                 pr = pc -1;
             }
