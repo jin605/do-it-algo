@@ -30,7 +30,6 @@ public class BinarySearchTester {
             } while (x[i] < x[i -1]);
 
         }
-
         System.out.print("검색할 값 : ");
         int ky = stdId.nextInt();
 
