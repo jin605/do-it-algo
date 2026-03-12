@@ -33,8 +33,11 @@ public class boj2941  {
                                 i++;
                                 i++;
                             }
+
                         }
+
                     }
+
                 }
 
             } else if (c == 'l') {

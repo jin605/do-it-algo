@@ -37,11 +37,13 @@ public class boj4949 {
             }
 
             else if (c == ')') {
+
                 if (stk.isEmpty() || stk.peekFirst() != '(') {
                     return "no";
                 }
                 stk.pollFirst();
-            } else if (c == ']') {
+            }
+            else if (c == ']') {
                 if (stk.isEmpty() || stk.peekFirst() != '[') {
                     return "no";
                 }
@@ -49,6 +51,7 @@ public class boj4949 {
             }
 
         }
+
         if (stk.isEmpty()) {
             return "yes";
         } else {

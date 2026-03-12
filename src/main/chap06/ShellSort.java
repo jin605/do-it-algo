@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class ShellSort {
 
     static void shellSort (int[] a, int n) {
+
         for (int h = n/2; h >0; h/= 2){
+
             for (int i = h; i < n; i++) {
                 int j;
                 int tmp = a[i];
@@ -13,6 +15,7 @@ public class ShellSort {
 
                     a[j + h] = a[j];
                 }
+
                 a[j+h] = tmp;
             }
         }
@@ -39,7 +42,6 @@ public class ShellSort {
             System.out.printf("x[%d] : %d\n",i , x[i]);
         }
 
-
-
     }
+
 }
